@@ -11,7 +11,7 @@ public class Fila extends ListaEncadeada{
 
     @Override
     public void mostra() {
-        if (ehVazia()) {
+        if (super.ehVazia()) {
             System.out.println("Head -> null <- Tail");
         } else {
             Nodo temp = super.getLista();
@@ -26,7 +26,7 @@ public class Fila extends ListaEncadeada{
 
     @Override
     public Nodo acesso(int posicao) {
-        if (ehVazia()) {
+        if (super.ehVazia()) {
             System.out.println("Fila vazia!");
             return null;
         }

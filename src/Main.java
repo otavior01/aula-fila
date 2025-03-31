@@ -9,6 +9,15 @@ public class Main {
        Nodo novo = new Nodo(10);
        fila.enqueue(novo);
        
+       novo = new Nodo(10);
+       fila.enqueue(novo);
+       
+       novo = new Nodo(10);
+       fila.enqueue(novo);
+       
+       novo = new Nodo(10);
+       fila.enqueue(novo);
+       
        fila.mostra();
        
     
